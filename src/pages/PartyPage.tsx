@@ -110,9 +110,18 @@ const PartyPage = () => {
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="relative py-20 bg-gradient-to-br from-red-600 to-amber-600"
+        className="relative py-20 bg-gradient-to-br from-red-600 to-amber-600 overflow-hidden"
       >
-        <div className="absolute inset-0 bg-black/10"></div>
+        <div className="absolute inset-0 bg-black/10">
+          <div 
+            className="absolute inset-0 opacity-15"
+            style={{
+              backgroundImage: 'url(/images/ho-chi-minh-soldiers.jpg)',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center'
+            }}
+          />
+        </div>
         <div className="relative page-container text-center text-white">
           <motion.div
             initial={{ scale: 0, rotate: -180 }}

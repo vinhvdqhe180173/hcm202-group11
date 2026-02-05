@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Minh họa Hồ Chí Minh với thiếu nhi">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ed" />
+      <stop offset="1" stop-color="#fde68a" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g)" />
+
+  <!-- Hearts/bubbles -->
+  <g opacity="0.18" fill="#dc2626">
+    <circle cx="280" cy="260" r="46" />
+    <circle cx="1320" cy="240" r="54" />
+    <circle cx="1220" cy="380" r="30" />
+    <circle cx="420" cy="380" r="26" />
+  </g>
+
+  <!-- Figures -->
+  <g opacity="0.2" fill="#111827">
+    <path d="M800 320c-70 0-128 58-128 128 0 52 32 98 78 118-16 18-26 40-26 66v92h152v-92c0-26-10-48-26-66 46-20 78-66 78-118 0-70-58-128-128-128z" />
+    <path d="M520 520c-48 0-88 40-88 88 0 36 22 68 54 82-12 12-20 28-20 46v88h108v-88c0-18-8-34-20-46 32-14 54-46 54-82 0-48-40-88-88-88z" />
+    <path d="M1080 520c-48 0-88 40-88 88 0 36 22 68 54 82-12 12-20 28-20 46v88h108v-88c0-18-8-34-20-46 32-14 54-46 54-82 0-48-40-88-88-88z" />
+  </g>
+
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" text-anchor="middle" fill="#111827">
+    <text x="800" y="160" font-size="54" font-weight="800" opacity="0.78">Bác với thiếu nhi</text>
+    <text x="800" y="212" font-size="22" opacity="0.6">Tình yêu thương và giáo dục thế hệ trẻ</text>
+  </g>
+</svg>

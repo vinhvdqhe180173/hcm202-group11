@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1050" viewBox="0 0 1400 1050" role="img" aria-label="Chân dung minh họa Chủ tịch Hồ Chí Minh">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fee2e2" />
+      <stop offset="0.55" stop-color="#fff7ed" />
+      <stop offset="1" stop-color="#fde68a" />
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dc2626" />
+      <stop offset="1" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="1050" fill="url(#g)" />
+  <rect x="90" y="90" width="1220" height="870" rx="36" fill="white" opacity="0.65" />
+  <rect x="120" y="120" width="1160" height="810" rx="28" fill="none" stroke="url(#frame)" stroke-width="10" opacity="0.9" />
+
+  <!-- Portrait silhouette placeholder -->
+  <g opacity="0.22" fill="#111827">
+    <path d="M700 320c-86 0-156 70-156 156 0 70 46 129 110 149-18 24-30 55-30 88v30h152v-30c0-33-12-64-30-88 64-20 110-79 110-149 0-86-70-156-156-156z" />
+  </g>
+
+  <!-- Caption -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" text-anchor="middle" fill="#111827">
+    <text x="700" y="770" font-size="44" font-weight="800" opacity="0.75">Chủ tịch Hồ Chí Minh</text>
+    <text x="700" y="820" font-size="20" opacity="0.6">Ảnh minh họa (SVG placeholder)</text>
+    <text x="700" y="860" font-size="18" opacity="0.55">Thay file này bằng ảnh thật để hiển thị tốt hơn</text>
+  </g>
+</svg>

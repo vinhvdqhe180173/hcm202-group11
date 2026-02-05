@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Minh họa Hồ Chí Minh thời trẻ">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ed" />
+      <stop offset="1" stop-color="#fee2e2" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g)" />
+  <g opacity="0.18" fill="#111827">
+    <path d="M800 240c-92 0-166 74-166 166 0 72 46 133 112 155-22 24-36 56-36 92v42h180v-42c0-36-14-68-36-92 66-22 112-83 112-155 0-92-74-166-166-166z" />
+  </g>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" text-anchor="middle" fill="#111827">
+    <text x="800" y="760" font-size="48" font-weight="800" opacity="0.75">Hồ Chí Minh thời trẻ</text>
+    <text x="800" y="812" font-size="20" opacity="0.6">Gợi nhắc hành trình ra đi tìm đường cứu nước</text>
+  </g>
+  <g opacity="0.12" stroke="#dc2626" stroke-width="10">
+    <path d="M160 780c180-140 360-210 540-210 220 0 410 100 740 260" fill="none" />
+  </g>
+</svg>

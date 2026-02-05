@@ -87,6 +87,14 @@ const RevolutionPage = () => {
       >
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-black/20"></div>
+          <div 
+            className="absolute inset-0 opacity-20"
+            style={{
+              backgroundImage: 'url(/images/ho-chi-minh-people.jpg)',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center'
+            }}
+          />
           <Flame className="absolute top-10 right-10 text-white/10 w-64 h-64" />
           <Flame className="absolute bottom-10 left-10 text-white/10 w-48 h-48" />
         </div>

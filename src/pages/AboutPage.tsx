@@ -62,9 +62,18 @@ const AboutPage = () => {
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="relative py-20 bg-gradient-to-br from-red-600 to-amber-600"
+        className="relative py-20 bg-gradient-to-br from-red-600 to-amber-600 overflow-hidden"
       >
         <div className="absolute inset-0 bg-black/10"></div>
+        {/* Background pattern */}
+        <div 
+          className="absolute inset-0 opacity-10"
+          style={{
+            backgroundImage: 'url(/images/ho-chi-minh-flag.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+          }}
+        />
         <div className="relative page-container text-center text-white">
           <motion.h1
             initial={{ y: 30, opacity: 0 }}
@@ -199,6 +208,79 @@ const AboutPage = () => {
               <p className="text-gray-600 text-center text-lg">
                 {quality.description}
               </p>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
+      {/* Historical Photos Section */}
+      <section className="page-container py-20">
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="section-title text-center mb-16"
+        >
+          Hình Ảnh Lịch Sử
+        </motion.h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {[
+            { 
+              img: '/images/ho-chi-minh-young.jpg', 
+              title: 'Thời Trẻ',
+              desc: 'Nguyễn Tất Thành - Thời kỳ ra đi tìm đường cứu nước',
+              year: '1911'
+            },
+            { 
+              img: '/images/declaration-independence.jpg', 
+              title: 'Tuyên Ngôn Độc Lập',
+              desc: 'Đọc Tuyên ngôn độc lập tại Quảng trường Ba Đình',
+              year: '1945'
+            },
+            { 
+              img: '/images/dien-bien-phu.jpg', 
+              title: 'Chiến Thắng Điện Biên Phủ',
+              desc: 'Lãnh đạo cuộc kháng chiến chống thực dân Pháp',
+              year: '1954'
+            },
+            { 
+              img: '/images/ho-chi-minh-writing.jpg', 
+              title: 'Viết Di Chúc',
+              desc: 'Những lời dặn dò cuối cùng cho Đảng và nhân dân',
+              year: '1969'
+            }
+          ].map((item, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.1 }}
+              className="group relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300"
+            >
+              {/* Image */}
+              <div className="aspect-[16/10] bg-gradient-to-br from-red-100 to-amber-100 relative">
+                <div 
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                  style={{
+                    backgroundImage: `url(${item.img})`,
+                    backgroundColor: 'rgba(220, 38, 38, 0.1)'
+                  }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                
+                {/* Year badge */}
+                <div className="absolute top-4 right-4 bg-red-600 text-white px-4 py-2 rounded-full font-bold text-lg shadow-lg">
+                  {item.year}
+                </div>
+              </div>
+              
+              {/* Content */}
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                <h3 className="text-2xl font-heading font-bold mb-2">{item.title}</h3>
+                <p className="text-sm opacity-90">{item.desc}</p>
+              </div>
             </motion.div>
           ))}
         </div>

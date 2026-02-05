@@ -75,7 +75,18 @@ const HomePage = () => {
         animate={{ opacity: 1 }}
         className="relative py-20 overflow-hidden"
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-red-100 via-amber-50 to-red-50 opacity-50"></div>
+        {/* Background with image placeholder */}
+        <div className="absolute inset-0 bg-gradient-to-br from-red-100 via-amber-50 to-red-50 opacity-50">
+          <div 
+            className="absolute inset-0 opacity-20"
+            style={{
+              backgroundImage: 'url(/images/hero-bg.jpg)',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat'
+            }}
+          />
+        </div>
         
         <div className="relative page-container">
           <motion.div
@@ -217,6 +228,63 @@ const HomePage = () => {
                 <p className="text-white/80 text-sm">
                   {quote.context}
                 </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Image Gallery Section */}
+      <section className="bg-white py-20">
+        <div className="page-container">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="section-title">Hình Ảnh Lưu Niệm</h2>
+            <p className="text-xl text-gray-600">
+              Những khoảnh khắc lịch sử về Chủ tịch Hồ Chí Minh
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              { img: '/images/ho-chi-minh-portrait.jpg', title: 'Chân Dung Bác Hồ', desc: 'Chủ tịch Hồ Chí Minh - Vị lãnh tụ kính yêu' },
+              { img: '/images/declaration-independence.jpg', title: 'Tuyên Ngôn Độc Lập', desc: 'Ngày 2/9/1945 - Quảng trường Ba Đình' },
+              { img: '/images/ho-chi-minh-people.jpg', title: 'Bác Với Nhân Dân', desc: 'Gần gũi, thân thiện với nhân dân' },
+              { img: '/images/ho-chi-minh-writing.jpg', title: 'Bác Viết Văn Kiện', desc: 'Những tác phẩm lý luận quan trọng' },
+              { img: '/images/ho-chi-minh-children.jpg', title: 'Bác Với Thiếu Nhi', desc: 'Yêu thương thế hệ trẻ' },
+              { img: '/images/ho-chi-minh-soldiers.jpg', title: 'Bác Với Bộ Đội', desc: 'Động viên chiến sĩ' }
+            ].map((item, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300"
+              >
+                {/* Image placeholder with gradient */}
+                <div className="aspect-[4/3] bg-gradient-to-br from-red-100 to-amber-100 relative overflow-hidden">
+                  <div 
+                    className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-110"
+                    style={{
+                      backgroundImage: `url(${item.img})`,
+                      backgroundColor: 'rgba(220, 38, 38, 0.1)'
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+                
+                {/* Text overlay */}
+                <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                  <h3 className="text-xl font-heading font-bold mb-2">{item.title}</h3>
+                  <p className="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    {item.desc}
+                  </p>
+                </div>
               </motion.div>
             ))}
           </div>

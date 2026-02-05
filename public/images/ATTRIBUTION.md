@@ -1,0 +1,103 @@
+# Image Attribution
+
+The following images were downloaded from Wikimedia Commons. Please keep this file for license compliance.
+
+## hero-bg.jpg
+- Purpose: Hero background (Ba Đình 2/9/1945)
+- Commons file: File:Ba Dinh Square September 2nd, 1945.jpg
+- Source page: https://commons.wikimedia.org/wiki/File%3ABa%20Dinh%20Square%20September%202nd%2C%201945.jpg
+- Download URL: https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Ba_Dinh_Square_September_2nd%2C_1945.jpg/1280px-Ba_Dinh_Square_September_2nd%2C_1945.jpg
+- License: Public domain
+- License URL: 
+- Author/Artist: Unknown authorUnknown author
+- Credit: https://vnn-imgs-f.vgcloud.vn/2020/02/02/12/hien-vat-quy-hiem-trong-moc-son-lich-su-90-nam-dang-cong-san-viet-nam.jpg
+
+## ho-chi-minh-portrait.jpg
+- Purpose: Portrait
+- Commons file: File:Ho Chi Minh - 1946 Portrait.jpg
+- Source page: https://commons.wikimedia.org/wiki/File%3AHo%20Chi%20Minh%20-%201946%20Portrait.jpg
+- Download URL: https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Ho_Chi_Minh_-_1946_Portrait.jpg/1280px-Ho_Chi_Minh_-_1946_Portrait.jpg
+- License: Public domain
+- License URL: 
+- Author/Artist: Unknown authorUnknown author
+- Credit: Kindrick, Joel (November 5, 2019). Who Was Ho Chi Minh? The Evolution of a Self-Described ‘Professional Revolutionary’ (English). HistoryNet. Archived from the original on June 3, 2025. Retrieved on June 3, 2025. (orig)
+
+## ho-chi-minh-young.jpg
+- Purpose: Young (historical photo, 1921)
+- Commons file: File:Nguyen Aïn Nuä'C (Ho-Chi-Minh), délégué indochinois, Congrès communiste de Marseille, 1921, Meurisse, BNF Gallica.jpg
+- Source page: https://commons.wikimedia.org/wiki/File%3ANguyen%20A%C3%AFn%20Nu%C3%A4%27C%20%28Ho-Chi-Minh%29%2C%20d%C3%A9l%C3%A9gu%C3%A9%20indochinois%2C%20Congr%C3%A8s%20communiste%20de%20Marseille%2C%201921%2C%20Meurisse%2C%20BNF%20Gallica.jpg
+- Download URL: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg/1280px-Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg
+- License: Public domain
+- License URL: 
+- Author/Artist: Agence de presse Meurisse
+- Credit: This file comes from Gallica Digital Library and is available under the digital ID btv1b9054078w
+
+## declaration-independence.jpg
+- Purpose: Declaration of Independence 2/9/1945
+- Commons file: File:Président Ho-chi-Minh lit la Proclamation-d'indépendance sur la place Ba-dinh le 2nd Sep 1945.jpg
+- Source page: https://commons.wikimedia.org/wiki/File%3APr%C3%A9sident%20Ho-chi-Minh%20lit%20la%20Proclamation-d%27ind%C3%A9pendance%20sur%20la%20place%20Ba-dinh%20le%202nd%20Sep%201945.jpg
+- Download URL: https://upload.wikimedia.org/wikipedia/commons/8/8a/Pr%C3%A9sident_Ho-chi-Minh_lit_la_Proclamation-d%27ind%C3%A9pendance_sur_la_place_Ba-dinh_le_2nd_Sep_1945.jpg
+- License: Public domain
+- License URL: 
+- Author/Artist: Front pour l'indépendance du Việt-Nam
+- Credit: © VARCHIV
+
+## ho-chi-minh-people.jpg
+- Purpose: With people (group photo)
+- Commons file: File:Ho Chi Minh (third from left standing) and the OSS in 1945.jpg
+- Source page: https://commons.wikimedia.org/wiki/File%3AHo%20Chi%20Minh%20%28third%20from%20left%20standing%29%20and%20the%20OSS%20in%201945.jpg
+- Download URL: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ho_Chi_Minh_%28third_from_left_standing%29_and_the_OSS_in_1945.jpg/1280px-Ho_Chi_Minh_%28third_from_left_standing%29_and_the_OSS_in_1945.jpg
+- License: Public domain
+- License URL: 
+- Author/Artist: U.S. Army (according to Air Force Magazine (May, 2020), p. 56)
+- Credit: Stewart, Richard W. (2012), Deepening Involvement 1945-1965, Center of Military History, United States Army
+
+## ho-chi-minh-writing.png
+- Purpose: Writing / handwriting sample
+- Commons file: File:Ho Chi Minh Mixed Writing.png
+- Source page: https://commons.wikimedia.org/wiki/File%3AHo%20Chi%20Minh%20Mixed%20Writing.png
+- Download URL: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ho_Chi_Minh_Mixed_Writing.png/1280px-Ho_Chi_Minh_Mixed_Writing.png
+- License: CC BY-SA 4.0
+- License URL: https://creativecommons.org/licenses/by-sa/4.0
+- Author/Artist: Lachy70
+- Credit: Own work
+
+## dien-bien-phu.jpg
+- Purpose: Điện Biên Phủ (historical)
+- Commons file: File:Battle of Dienbienphu, 1954, Final French Defeat (9732265971).jpg
+- Source page: https://commons.wikimedia.org/wiki/File%3ABattle%20of%20Dienbienphu%2C%201954%2C%20Final%20French%20Defeat%20%289732265971%29.jpg
+- Download URL: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Battle_of_Dienbienphu%2C_1954%2C_Final_French_Defeat_%289732265971%29.jpg/1280px-Battle_of_Dienbienphu%2C_1954%2C_Final_French_Defeat_%289732265971%29.jpg
+- License: CC0
+- License URL: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+- Author/Artist: Gary Todd from Xinzheng, China
+- Credit: Battle of Dienbienphu, 1954, Final French Defeat
+
+## ho-chi-minh-children.jpg
+- Purpose: With children
+- Commons file: File:Ho-chi-Minh with children (8).jpg
+- Source page: https://commons.wikimedia.org/wiki/File%3AHo-chi-Minh%20with%20children%20%288%29.jpg
+- Download URL: https://upload.wikimedia.org/wikipedia/commons/0/07/Ho-chi-Minh_with_children_%288%29.jpg
+- License: Public domain
+- License URL: 
+- Author/Artist: Musée Annam
+- Credit: Hình ảnh Chủ tịch Hồ Chí Minh vui chơi thiếu nhi Việt Nam
+
+## ho-chi-minh-soldiers.jpg
+- Purpose: With soldiers (military leadership)
+- Commons file: File:Ho Chi Minh and Vo Nguyen Giap, Sept. 2, 1945.jpg
+- Source page: https://commons.wikimedia.org/wiki/File%3AHo%20Chi%20Minh%20and%20Vo%20Nguyen%20Giap%2C%20Sept.%202%2C%201945.jpg
+- Download URL: https://upload.wikimedia.org/wikipedia/commons/9/96/Ho_Chi_Minh_and_Vo_Nguyen_Giap%2C_Sept._2%2C_1945.jpg
+- License: Public domain
+- License URL: 
+- Author/Artist: An Ninh Võ
+- Credit: "Bức ảnh có một không hai về Cụ Hồ và Tướng Giáp", Báo Thái Bình điện tử C.f. "Bác Hồ mặc áo nào khi đọc Tuyên ngôn Độc lập", Tạp chí người Hà Nội online
+
+## ho-chi-minh-flag.jpg
+- Purpose: With Vietnam flag
+- Commons file: File:Ho Chi Minh statue and flag of Vietnam.jpg
+- Source page: https://commons.wikimedia.org/wiki/File%3AHo%20Chi%20Minh%20statue%20and%20flag%20of%20Vietnam.jpg
+- Download URL: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ho_Chi_Minh_statue_and_flag_of_Vietnam.jpg/1280px-Ho_Chi_Minh_statue_and_flag_of_Vietnam.jpg
+- License: CC BY-SA 2.0
+- License URL: https://creativecommons.org/licenses/by-sa/2.0
+- Author/Artist: qiv
+- Credit: Flickr: Ho Chi Minh

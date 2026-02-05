@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Minh họa Tuyên ngôn độc lập 1945">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fee2e2" />
+      <stop offset="1" stop-color="#fff7ed" />
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="1" stop-color="#fff7ed" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#g)" />
+
+  <!-- Paper -->
+  <rect x="300" y="160" width="1000" height="680" rx="26" fill="url(#paper)" opacity="0.92" />
+  <rect x="300" y="160" width="1000" height="680" rx="26" fill="none" stroke="#dc2626" stroke-opacity="0.35" stroke-width="8" />
+
+  <!-- Lines -->
+  <g stroke="#111827" stroke-opacity="0.12">
+    <path d="M360 260h880" />
+    <path d="M360 310h880" />
+    <path d="M360 360h880" />
+    <path d="M360 410h880" />
+    <path d="M360 460h880" />
+    <path d="M360 510h880" />
+    <path d="M360 560h720" />
+  </g>
+
+  <!-- Title -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" text-anchor="middle" fill="#111827">
+    <text x="800" y="125" font-size="54" font-weight="800" opacity="0.78">Tuyên ngôn độc lập</text>
+    <text x="800" y="175" font-size="22" opacity="0.6">2/9/1945 • Quảng trường Ba Đình</text>
+  </g>
+
+  <!-- Seal -->
+  <g transform="translate(1180 700)" opacity="0.22">
+    <circle cx="0" cy="0" r="90" fill="#dc2626" />
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#fff" stroke-opacity="0.55" stroke-width="10" />
+    <path d="M0-40l14 28 31 5-22 22 5 31-28-15-28 15 5-31-22-22 31-5z" fill="#fff" fill-opacity="0.5" />
+  </g>
+</svg>

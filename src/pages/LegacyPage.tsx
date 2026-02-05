@@ -129,9 +129,18 @@ const LegacyPage = () => {
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="relative py-20 bg-gradient-to-br from-red-600 via-amber-600 to-red-600"
+        className="relative py-20 bg-gradient-to-br from-red-600 via-amber-600 to-red-600 overflow-hidden"
       >
-        <div className="absolute inset-0 bg-black/10"></div>
+        <div className="absolute inset-0 bg-black/10">
+          <div 
+            className="absolute inset-0 opacity-20"
+            style={{
+              backgroundImage: 'url(/images/ho-chi-minh-portrait.jpg)',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center'
+            }}
+          />
+        </div>
         <div className="relative page-container text-center text-white">
           <motion.div
             initial={{ scale: 0, rotate: -180 }}
@@ -360,6 +369,71 @@ const LegacyPage = () => {
                 "Tư tưởng Hồ Chí Minh mãi mãi soi đường cho dân tộc Việt Nam"
               </p>
             </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Photo Memories Gallery */}
+      <section className="bg-gradient-to-br from-red-50 to-amber-50 py-20">
+        <div className="page-container">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="section-title text-center mb-16"
+          >
+            Kỷ Niệm Qua Hình Ảnh
+          </motion.h2>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
+            {[
+              { img: '/images/ho-chi-minh-portrait.jpg', caption: 'Chân dung Bác Hồ' },
+              { img: '/images/ho-chi-minh-young.jpg', caption: 'Thời thanh niên' },
+              { img: '/images/ho-chi-minh-writing.jpg', caption: 'Bác viết văn kiện' },
+              { img: '/images/ho-chi-minh-people.jpg', caption: 'Bác với nhân dân' },
+              { img: '/images/ho-chi-minh-children.jpg', caption: 'Bác với thiếu nhi' },
+              { img: '/images/ho-chi-minh-soldiers.jpg', caption: 'Bác với bộ đội' },
+              { img: '/images/declaration-independence.jpg', caption: 'Tuyên ngôn độc lập' },
+              { img: '/images/ho-chi-minh-flag.jpg', caption: 'Bác với quốc kỳ' }
+            ].map((item, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.05 }}
+                whileHover={{ scale: 1.05, zIndex: 10 }}
+                className="group relative aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 cursor-pointer"
+              >
+                {/* Image */}
+                <div 
+                  className="absolute inset-0 bg-gradient-to-br from-red-100 to-amber-100 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                  style={{
+                    backgroundImage: `url(${item.img})`,
+                    backgroundColor: 'rgba(220, 38, 38, 0.1)'
+                  }}
+                />
+                
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                
+                {/* Caption */}
+                <div className="absolute bottom-0 left-0 right-0 p-3 text-white text-sm font-medium text-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                  {item.caption}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mt-12"
+          >
+            <p className="text-gray-600 italic">
+              * Hình ảnh mang tính chất minh họa. Vui lòng thay thế bằng hình ảnh thực tế.
+            </p>
           </motion.div>
         </div>
       </section>

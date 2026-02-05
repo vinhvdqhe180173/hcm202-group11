@@ -37,6 +37,27 @@ npm run build
 npm run preview
 ```
 
+## 🖼️ Thêm Hình Ảnh
+
+Dự án đã có sẵn **ảnh thật** trong `public/images/` (tải từ Wikimedia Commons) và code đang trỏ tới `.jpg`, nên chạy lên sẽ có ảnh ngay.
+
+Danh sách file đang dùng:
+
+- `hero-bg.jpg`
+- `ho-chi-minh-portrait.jpg`
+- `ho-chi-minh-young.jpg`
+- `declaration-independence.jpg`
+- `ho-chi-minh-writing.jpg`
+- `ho-chi-minh-people.jpg`
+- `dien-bien-phu.jpg`
+- `ho-chi-minh-children.jpg`
+- `ho-chi-minh-soldiers.jpg`
+- `ho-chi-minh-flag.jpg`
+
+Nguồn & license từng ảnh nằm trong `public/images/ATTRIBUTION.md`.
+
+Nếu bạn muốn thay ảnh khác, chỉ cần ghi đè file tương ứng và đảm bảo license hợp lệ.
+
 ## 🎨 Thiết Kế
 
 - Thiết kế responsive trên mọi thiết bị
@@ -80,26 +101,4 @@ MIT License - được tạo với ❤️ để tôn vinh tư tưởng Hồ Chí
 ---
 
 **"Không có gì quý hơn độc lập, tự do"** - Hồ Chí Minh
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```

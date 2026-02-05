@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Minh họa Hồ Chí Minh với nhân dân">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fee2e2" />
+      <stop offset="1" stop-color="#fff7ed" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g)" />
+
+  <!-- Crowd silhouettes -->
+  <g opacity="0.18" fill="#111827">
+    <path d="M120 820c30-130 120-210 240-210s210 80 240 210H120z" />
+    <path d="M520 820c26-110 102-178 206-178s180 68 206 178H520z" />
+    <path d="M900 820c28-120 110-196 226-196s198 76 226 196H900z" />
+  </g>
+
+  <!-- Central figure placeholder -->
+  <g opacity="0.22" fill="#dc2626">
+    <path d="M800 300c-80 0-146 66-146 146 0 58 34 109 84 132-18 18-30 44-30 72v80h184v-80c0-28-12-54-30-72 50-23 84-74 84-132 0-80-66-146-146-146z" />
+  </g>
+
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" text-anchor="middle" fill="#111827">
+    <text x="800" y="160" font-size="54" font-weight="800" opacity="0.78">Bác với nhân dân</text>
+    <text x="800" y="212" font-size="22" opacity="0.6">Gần dân, trọng dân, vì dân</text>
+  </g>
+</svg>
